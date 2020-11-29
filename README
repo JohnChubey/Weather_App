@@ -1,0 +1,21 @@
+Weather App
+Author: John Chubey
+
+Requirements:
+1) Make sure you have Node.js installed (>= Version 14.15.1)
+2) Make sure you have npm installed (>= Version 6.14.8)
+3) Navigate to the root directory (where package.json is located)
+
+Installation: To install, navigate to the root directory containing the "package.json"
+file and run 'npm install' to install dependencies. After this you should be able to run it using
+the instructions below.
+
+Running: To run, make sure that all dependencies are installed, then navigate to your root
+directory which contains the "package.json" file and run 'npm start'. The application should
+open on port 5000.
+
+Testing:
+To run all tests, navigate to the directory containing "package.json" and run the commmand 'npm test'.
+If all of the dependencies are installed correctly the tests should run without any problems. To
+check test coverage, execute the command 'npm test -- coverage'. Testing is completed via Jest and
+React Testing Library.

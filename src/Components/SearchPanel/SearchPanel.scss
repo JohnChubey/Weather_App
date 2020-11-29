@@ -1,0 +1,77 @@
+.SearchPanel {
+  border: 0.2em solid black;
+  height: 90vh;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  div {
+    flex: 1;
+  }
+}
+
+#recentCitiesHR {
+  border: 0.05em solid #cbcbcb;
+}
+
+#recentLocationsText {
+  color: #bdbdbd;
+  margin: 1em 0 0 0;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+#SearchPanelHR {
+  margin: 0.5em 0 0.5em 0;
+  padding: 0;
+  border: 0.1em solid #000;
+}
+
+#recentCitiesDiv {
+  flex: 40;
+}
+
+#clearDiv {
+  width: 100%;
+  display: flex;
+}
+
+#clearButton {
+  width: 10em;
+  height: 2.5em;
+  margin-left: auto;
+  border: none;
+  outline: none;
+  color: #000;
+
+  &:hover {
+    color: #a7a8a8;
+  }
+}
+
+#searchDiv {
+  display: flex;
+  height: 2em;
+
+  * {
+    outline: none;
+  }
+}
+
+#citySearchBar {
+  flex: 13;
+  border: none;
+  border-bottom: 0.1em solid #d6d6d6;
+}
+
+#addCityButton {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  color: #797878;
+  font-size: 1.5rem;
+
+  &:hover {
+    color: #a7a8a8;
+  }
+}
